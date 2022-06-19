@@ -21,8 +21,8 @@ export const Navbar = () => {
                 <div className="md:flex lg:flex xl:flex xxl:flex items-center justify-between bg-white py-0 px-7">
                     <div className="desktop-nav">
                         <ul
-                            className={`md:flex lg:flex xl:flex xxl:flex md:items-center lg:items-center xl:items-center xxl:items-center font-mono md:pb-0 lg:pb-0 xl:pb-0 xxl:pb-0 pb-12 absolute md:static lg:static xl:static xxl:static bg-spot-yellow md:z-auto lg:z-auto xl:z-auto xxl:z-auto z-[-1] 
-      left-0 w-full md:w-auto lg:w-auto xl:w-auto xxl:w-auto md:pl-0 lg:pl-0 xl:pl-0 xxl:pl-0 pl-9 transition-all duration-300 ease-in ${open ? "top-20 opacity-90" : "top-[-490px]"
+                            className={`xs:flex sm:flex md:flex lg:flex xl:flex xxl:flex md:items-center lg:items-center xl:items-center xxl:items-center font-mono md:pb-0 lg:pb-0 xl:pb-0 xxl:pb-0 pb-12 absolute md:static lg:static xl:static xxl:static bg-spot-yellow md:z-auto lg:z-auto xl:z-auto xxl:z-auto z-[-1] 
+      left-0 w-full md:w-auto lg:w-auto xl:w-auto xxl:w-auto md:pl-0 lg:pl-0 xl:pl-0 xxl:pl-0 pl-9 transition-all duration-300 ease-in ${open ? "top-20 opacity-90 bg-white" : "top-[-490px]"
                                 }`}
                         >
                             <img src={logo} alt="logo" className="m-0 w-60 px-4 py-4"></img>
