@@ -34,7 +34,7 @@
   top: 50%;
   right: 32px;
   font-size: 3rem;
-  color: rgb(255, 255, 255);
+  color: rgba(206, 206, 206, 0.5);
   z-index: 10;
   cursor: pointer;
   user-select: none;
@@ -45,7 +45,7 @@
   top: 50%;
   left: 32px;
   font-size: 3rem;
-  color: rgb(255, 255, 255);
+  color: rgba(206, 206, 206, 0.5);
   z-index: 10;
   cursor: pointer;
   user-select: none;
