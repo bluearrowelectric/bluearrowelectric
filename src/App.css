@@ -18,13 +18,13 @@
 { 
   .slider-iphone-landscape {
     position: relative;
-    height: 400px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .image-iphone-landscape {
-    height: 350px;
+    height: 200px;
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 10px;
