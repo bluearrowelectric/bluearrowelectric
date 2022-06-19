@@ -19,7 +19,7 @@ const ImageSlider = ({ slides }) => {
   }
 
   return (
-    <section className='slider'>
+    <section className='slider slider-m slider-l'>
       <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
       <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
       {SliderData.map((slide, index) => {
@@ -29,7 +29,7 @@ const ImageSlider = ({ slides }) => {
             key={index}
           >
             {index === current && (
-              <img src={slide.image} alt='projects' className='image hover:scale-110 duration-300' />
+              <img src={slide.image} alt='projects' className='image image-m image-l hover:scale-110 duration-300' />
             )}
           </div>
         );

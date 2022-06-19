@@ -1,31 +1,55 @@
+@media (min-width: 716px) { 
+  .slider-m {
+    position: relative;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-m {
+    height: 400px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 1024) {
+  .slider-l {
+    position: relative;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-l {
+    width: 1000px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+  }
+}
+
 .slider {
   position: relative;
-  height: 700px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .sliderhover {
-  position: relative;
-  height: 750px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   scale: 105;
 }
 
 .image {
-  width: 1000px;
+  width: max-content;
   padding-left: 50px;
   padding-right: 50px;
   border-radius: 10px;
 }
 
 .imagehover {
-  width: 1000px;
-  height: 600px;
-  border-radius: 10px;
   scale: 1.05;
 }
 
