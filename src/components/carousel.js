@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { SliderData } from './carouseldata';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
 const ImageSlider = ({ slides }) => {
@@ -19,21 +18,26 @@ const ImageSlider = ({ slides }) => {
   }
 
   return (
-    <section className='slider slider-iphone-landscape'>
+    <section className='slider .slider-iphone-landscape'>
       <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
       <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
-      {SliderData.map((slide, index) => {
-        return (
-          <div
-            className={index === current ? 'slide active' : 'slide'}
-            key={index}
-          >
-            {index === current && (
-              <img src={slide.image} alt='projects' className='image image-iphone-landscape hover:scale-110 duration-300' />
-            )}
-          </div>
-        );
-      })}
+      {slides.map((slide, index) => (
+        <a
+          key={index}
+          href={slide.link}  // Assuming you have a 'link' property in each slide object
+          target="_blank"
+          rel="noopener noreferrer"
+          className={index === current ? 'slide active' : 'slide'}
+        >
+          {index === current && (
+            <img
+              src={slide.image}
+              alt='projects'
+              className='image image-iphone-landscape hover:scale-110 duration-300'
+            />
+          )}
+        </a>
+      ))}
     </section>
   );
 };
