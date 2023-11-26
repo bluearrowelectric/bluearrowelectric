@@ -7,6 +7,7 @@ export const Navbar = () => {
 
     let Links = [
         { name: "Home", link: "/" },
+        { name: "Testimonials", link: "/testimonials" },
         { name: "Contact", link: "mailto:bluearrowelectric@gmail.com" },
         //{ name: "Testimonials", link: "/testimonials" },
 
