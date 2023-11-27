@@ -5,7 +5,7 @@ import background from '../assets/images/IMG_1418.jpg';
 
 function Main() {
     return (
-        <div className="h-screen relative">
+        <div className="h-screen relative pt-24">
             {/* Your Main component content goes here */}
             <div className="text-white text-center h-full">
                 <div className='pt-12'>

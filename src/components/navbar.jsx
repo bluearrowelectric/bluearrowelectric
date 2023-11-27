@@ -4,8 +4,8 @@ import logo from "../assets/images/logo.png";
 
 export const Navbar = () => {
     let Links = [
-        { name: "Home", link: "/" },
-        { name: "Testimonials", link: "/testimonials" },
+        //{ name: "Home", link: "/" },
+        //{ name: "Testimonials", link: "/testimonials" },
         { name: "Contact", link: "mailto:bluearrowelectric@gmail.com" },
     ];
 
@@ -13,37 +13,35 @@ export const Navbar = () => {
     const [open, setOpen] = useState(false);
 
     return (
-        <nav className="main-nav pb-20 pt-8 bg-transparent">
+        <nav className="main-nav pb-0 pt-4 bg-transparent">
             <div className="w-full fixed top-0 left-0 pt-8">
-                <div className="md:flex lg:flex xl:flex xxl:flex items-center justify-between py-0 px-7">
-                    <div className="desktop-nav">
-                        <ul
-                            className={`xs:flex sm:flex md:flex lg:flex xl:flex xxl:flex md:items-center lg:items-center xl:items-center xxl:items-center font-mono md:pb-0 lg:pb-0 xl:pb-0 xxl:pb-0 pb-12 absolute md:static lg:static xl:static xxl:static bg-spot-yellow md:z-auto lg:z-auto xl:z-auto xxl:z-auto z-[-1] 
-                            left-0 w-full md:w-auto lg:w-auto xl:w-auto xxl:w-auto md:pl-0 lg:pl-0 xl:pl-0 xxl:pl-0 pl-9 transition-all duration-300 ease-in"
-                                }`}
-                        >
-                            <img src={logo} alt="logo" className="m-0 w-60 px-4 py-4"></img>
-                            <div className="flex px-14 absolute right-0">
-                                {Links.map((link) => (
+                <div className="flex">
+                    <div className="flex">
+                        <ul className='flex justify-center items-center text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl'>
+                            <div className='pl-8'>  <img src={logo} alt="logo" className="m-0 w-60 pl-4 py-4"></img></div>
+
+                            <div className="sm:flex md:flex px-14 absolute right-0 py-8">
+                                {/*} {Links.map((link) => (
                                     <li
                                         key={link.name}
-                                        className="md:ml-8 lg:ml-8 xl:ml-8 xxl:ml-8 text-2xl hover:text-gray-400 duration-300 md:my-0 lg:my-0 xl:my-0 xxl:my-0 my-10 pl-2 px-8"
+                                        className="text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl py-8"
                                     >
                                         <a
-                                            target={
-                                                (link.name === "Twitter") &&
-                                                "_blank"
-                                            }
+                                            target={(link.name === "Twitter") && "_blank"}
                                             href={link.link}
                                         >
                                             {link.name}
                                         </a>
                                     </li>
                                 ))}
+                               */}
+                                <a href="mailto:bluearrowelectric@gmail.com"
+                                    class="text-black hover:text-blue-500 transition-colors">
+                                    Contact Us
+                                </a>
                             </div>
                         </ul>
                     </div>
-
                 </div>
             </div>
         </nav>
