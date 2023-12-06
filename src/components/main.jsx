@@ -1,16 +1,19 @@
 import React from 'react';
 import ImageSlider from './carousel';
 import { SliderData } from './carouseldata';
-import background from '../assets/images/IMG_1418.jpg';
+
 
 function Main() {
+
+
     return (
+
         <div className="h-screen relative pt-24">
             {/* Your Main component content goes here */}
             <div className="text-white text-center h-full">
                 <div className='pt-12'>
                     <div className='bg-slate-700 bg-opacity-60 pt-8 text-2xl font-serif'>
-                        Our Contracting Partners in Revelstoke BC and surrounding areas
+                        Contact One of Our Contracting Partners in Revelstoke BC and surrounding areas to work with us on your project
                     </div></div>
                 <div className="h-3/5">
                     <div className='bg-slate-700 bg-opacity-60 h-3/5'>

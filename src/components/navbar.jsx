@@ -34,11 +34,11 @@ export const Navbar = () => {
                                         </a>
                                     </li>
                                 ))}
-                               */}
+                               
                                 <a href="mailto:bluearrowelectric@gmail.com"
-                                    class="text-black hover:text-blue-500 transition-colors">
+                                    className="text-black hover:text-blue-500 transition-colors">
                                     Contact Us
-                                </a>
+                                </a>*/}
                             </div>
                         </ul>
                     </div>
