@@ -23,13 +23,23 @@ function Main() {
     return (
         <div className="snap-y-manditory snap-proximity">
             <div
-                className="min-h-screen flex justify-center items-center bg-black bg-no-repeat bg-fixed snap-center bg-cover"
+                className="min-h-screen flex justify-center items-center bg-no-repeat bg-fixed snap-center bg-cover"
                 style={{
                     backgroundImage: `url(${bg2})`,
                     backgroundPosition: 'center',
                 }}
             >
-                <div className='bg-white bg-opacity-60 w-full py-8'><img className='mx-auto px-12' src={logo1} alt="Logo 1" /></div>
+                <div className='bg-white bg-opacity-60 w-full h-full py-8'><img className='mx-auto px-12' src={logo1} alt="Logo 1" /></div>
+            </div>
+            <div
+                className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
+                style={{
+                    backgroundImage: `url(${bg8})`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                }}
+            >
+
             </div>
             <div
                 className="min-h-screen flex justify-center items-start bg-blue bg-no-repeat bg-fixed snap-start"
@@ -56,6 +66,7 @@ function Main() {
                 </div>
 
             </div>
+
             <div
                 className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
                 style={{
@@ -66,16 +77,7 @@ function Main() {
             >
 
             </div>
-            <div
-                className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
-                style={{
-                    backgroundImage: `url(${bg8})`,
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                }}
-            >
 
-            </div>
             <div
                 className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
                 style={{
@@ -137,7 +139,7 @@ function Main() {
 
             </div>
             <div
-                className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center"
+                className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center px-40"
                 style={{
                     backgroundImage: `url(${bg10})`,
                     backgroundSize: 'cover',
