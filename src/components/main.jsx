@@ -163,7 +163,7 @@ function Main() {
                     backgroundPosition: 'center',
                 }}
             >
-                <div className='bg-white bg-opacity-60 w-full py-8'><img className='mx-auto px-12' src={logo1} alt="Logo 1" /></div>
+                <div className='bg-white bg-opacity-60 w-full py-8'><a href='mailto:bluearrowelectric@gmail.com'><img className='mx-auto px-12' src={logo1} alt="Logo 1" /></a></div>
             </div>
 
         </div>
