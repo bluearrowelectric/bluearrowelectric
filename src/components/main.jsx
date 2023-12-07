@@ -9,10 +9,15 @@ import bg6 from '../assets/images/BAE_BG/21.jpg';
 import bg7 from '../assets/images/BAE_BG/20.jpg'
 import bg8 from '../assets/images/BAE_BG/22.jpg';
 import bg9 from '../assets/images/BAE_BG/13.jpg';
+import bg10 from '../assets/images/BAE_BG/10.jpg';
+import bg11 from '../assets/images/BAE_BG/3.jpg';
+import bg12 from '../assets/images/BAE_BG/14.jpg';
+
 import logo1 from '../assets/images/logo.png';
 import logo3 from '../assets/images/ParallelVision.png';
 import logo4 from '../assets/images/Mackenzie.png';
 import logo5 from '../assets/images/Appenzell.png';
+import logo2 from '../assets/images/RavenLong.png';
 
 function Main() {
     return (
@@ -124,13 +129,32 @@ function Main() {
             <div
                 className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
                 style={{
-                    backgroundImage: `url(${bg1})`,
+                    backgroundImage: `url(${bg12})`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                 }}
             >
 
             </div>
+            <div
+                className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center"
+                style={{
+                    backgroundImage: `url(${bg10})`,
+                    backgroundSize: 'cover',
+                }}
+            >
+                <img src={logo2} alt="Raven" />
+            </div>
+            <div
+                className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
+                style={{
+                    backgroundImage: `url(${bg11})`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                }}
+            >
+            </div>
+
             <div
                 className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
                 style={{
@@ -141,16 +165,7 @@ function Main() {
             >
                 <div className='bg-white bg-opacity-60 w-full py-8'><img className='mx-auto px-12' src={logo1} alt="Logo 1" /></div>
             </div>
-            {/*} <div
-                className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center"
-                style={{
-                    backgroundImage: `url(${bg1})`,
-                    backgroundSize: 'cover',
-                }}
-            >
-                <img src={logo5} alt="Raven" />
-            </div>
-            */}
+
         </div>
     );
 }
