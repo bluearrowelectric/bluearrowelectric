@@ -18,19 +18,20 @@ function Main() {
     return (
         <div className="snap-y-manditory snap-proximity">
             <div
-                className="min-h-screen flex justify-center items-center bg-black bg-no-repeat bg-fixed snap-center bg-cover bg-center"
+                className="min-h-screen flex justify-center items-center bg-black bg-no-repeat bg-fixed snap-center bg-cover"
                 style={{
                     backgroundImage: `url(${bg2})`,
-
+                    backgroundPosition: 'center',
                 }}
             >
-                <div className='bg-white bg-opacity-60 w-full py-8'><img className='mx-auto' src={logo1} alt="Logo 1" /></div>
+                <div className='bg-white bg-opacity-60 w-full py-8'><img className='mx-auto px-12' src={logo1} alt="Logo 1" /></div>
             </div>
             <div
                 className="min-h-screen flex justify-center items-start bg-blue bg-no-repeat bg-fixed snap-start"
                 style={{
                     backgroundImage: `url(${bg1})`,
                     backgroundSize: 'cover',
+                    backgroundPosition: 'center',
                 }}
             >
                 <div className="min-h-screen flex items-start pt-96 bg-blue bg-no-repeat bg-fixed snap-start">
@@ -55,6 +56,7 @@ function Main() {
                 style={{
                     backgroundImage: `url(${bg9})`,
                     backgroundSize: 'cover',
+                    backgroundPosition: 'center',
                 }}
             >
 
@@ -64,6 +66,7 @@ function Main() {
                 style={{
                     backgroundImage: `url(${bg8})`,
                     backgroundSize: 'cover',
+                    backgroundPosition: 'center',
                 }}
             >
 
@@ -73,6 +76,7 @@ function Main() {
                 style={{
                     backgroundImage: `url(${bg7})`,
                     backgroundSize: 'cover',
+                    backgroundPosition: 'center',
                 }}
             >
                 <a href="http://appenzellconstruction.com"><img className='w-2/3 mx-auto' src={logo5} alt="Appenzell" /></a>
@@ -82,6 +86,7 @@ function Main() {
                 style={{
                     backgroundImage: `url(${bg6})`,
                     backgroundSize: 'cover',
+                    backgroundPosition: 'center',
                 }}
             >
 
@@ -91,6 +96,7 @@ function Main() {
                 style={{
                     backgroundImage: `url(${bg4})`,
                     backgroundSize: 'cover',
+                    backgroundPosition: 'center',
                 }}
             >
                 <a href="http://parallelvisioncontracting.com"><img src={logo3} alt="Parallel Vision" /></a>
@@ -100,6 +106,7 @@ function Main() {
                 style={{
                     backgroundImage: `url(${bg5})`,
                     backgroundSize: 'cover',
+                    backgroundPosition: 'center',
                 }}
             >
 
@@ -109,15 +116,17 @@ function Main() {
                 style={{
                     backgroundImage: `url(${bg3})`,
                     backgroundSize: 'cover',
+                    backgroundPosition: 'center',
                 }}
             >
-                <a href="http://mackenziedynamic.com"><img className='w-1/3 mx-auto' src={logo4} alt="MacKenzie Dynamic" /></a>
+                <a href="http://mackenziedynamic.com"><img className='lg:w-2/3 md:w-2/3 mx-auto' src={logo4} alt="MacKenzie Dynamic" /></a>
             </div>
             <div
                 className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
                 style={{
                     backgroundImage: `url(${bg1})`,
                     backgroundSize: 'cover',
+                    backgroundPosition: 'center',
                 }}
             >
 
@@ -127,9 +136,10 @@ function Main() {
                 style={{
                     backgroundImage: `url(${bg7})`,
                     backgroundSize: 'cover',
+                    backgroundPosition: 'center',
                 }}
             >
-                <div className='bg-white bg-opacity-60 w-full py-8'><img className='mx-auto' src={logo1} alt="Logo 1" /></div>
+                <div className='bg-white bg-opacity-60 w-full py-8'><img className='mx-auto px-12' src={logo1} alt="Logo 1" /></div>
             </div>
             {/*} <div
                 className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center"
