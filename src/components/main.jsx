@@ -25,14 +25,14 @@ function Main() {
         <div>
             <div className='block md:hidden'>
                 <div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center bg-blue-200"
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-200"
                     style={{
                         backgroundImage: `url(${logo1})`,
                         backgroundSize: '80%',
                         backgroundPosition: '',
                     }}
                 ></div>
-                <div className="min-h-screen flex items-start pt-96 bg-blue bg-no-repeat bg-fixed snap-start bg-blue-200">
+                <div className="min-h-screen flex items-start pt-96 bg-blue bg-no-repeat snap-start bg-blue-200">
                     <div className="xl:w-1/2 lg:w-2/3 md:w-4/5 sm:w-full p-8">
                         <div className="bg-white bg-opacity-80 w-full px-16 pt-16 pb-60">
                             <div className="text-2xl">
@@ -50,7 +50,7 @@ function Main() {
                 </div>
 
                 <div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center bg-blue-300"
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-300"
                     style={{
                         backgroundImage: `url(${bg5})`,
                         backgroundSize: '100%',
@@ -58,7 +58,7 @@ function Main() {
                     }}
                 ></div>
                 <a href="http://appenzellconstruction.com"><div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center bg-blue-300"
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-300"
                     style={{
                         backgroundImage: `url(${logo5})`,
                         backgroundSize: '80%',
@@ -66,7 +66,7 @@ function Main() {
                     }}
                 ></div></a>
                 <div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center bg-blue-400"
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-400"
                     style={{
                         backgroundImage: `url(${bg3})`,
                         backgroundSize: '100%',
@@ -74,7 +74,7 @@ function Main() {
                     }}
                 ></div>
                 <a href="http://parallelvisioncontracting.com"><div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center bg-blue-400"
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-400"
                     style={{
                         backgroundImage: `url(${logo3})`,
                         backgroundSize: '100%',
@@ -82,7 +82,7 @@ function Main() {
                     }}
                 ></div></a>
                 <div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center bg-blue-500"
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-500"
                     style={{
                         backgroundImage: `url(${bg5})`,
                         backgroundSize: '100%',
@@ -90,7 +90,7 @@ function Main() {
                     }}
                 ></div>
                 <a href="http://mackenziedynamic.com"><div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center bg-blue-500"
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-500"
                     style={{
                         backgroundImage: `url(${logo4})`,
                         backgroundSize: '100%',
@@ -98,7 +98,7 @@ function Main() {
                     }}
                 ></div></a>
                 <div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center bg-blue-400"
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-400"
                     style={{
                         backgroundImage: `url(${bg1})`,
                         backgroundSize: '100%',
@@ -106,7 +106,7 @@ function Main() {
                     }}
                 ></div>
                 <a href="raven"><div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center bg-blue-400"
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-400"
                     style={{
                         backgroundImage: `url(${logo2})`,
                         backgroundSize: '80%',
@@ -114,7 +114,7 @@ function Main() {
                     }}
                 ></div></a>
                 <div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center bg-blue-300"
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-300"
                     style={{
                         backgroundImage: `url(${bg5})`,
                         backgroundSize: '100%',
@@ -122,7 +122,7 @@ function Main() {
                     }}
                 ></div>
                 <a href="mailto:bluearrowelectric@gmail.com"><div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center bg-blue-300"
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-300"
                     style={{
                         backgroundImage: `url(${logo1})`,
                         backgroundSize: '80%',
