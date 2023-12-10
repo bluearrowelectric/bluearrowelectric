@@ -30,13 +30,14 @@ function Main() {
         <div>
             <div className='block md:hidden'>
                 <div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-200"
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-center bg-blue-300"
                     style={{
                         backgroundImage: `url(${bae})`,
                         backgroundSize: '80%',
                         backgroundPosition: '',
                     }}
-                > <div className="justify-center items-center mt-auto">
+                >
+                    <div className="justify-center items-center mt-auto flex">
 
 
                         <svg
@@ -44,7 +45,7 @@ function Main() {
                             <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
                         </svg>
                     </div></div>
-                <div className="min-h-screen max-h-screen flex items-start pt- bg-blue bg-no-repeat snap-start bg-blue-200">
+                <div className="min-h-screen max-h-screen flex items-start pt-2 bg-blue bg-no-repeat bg-blue-300">
                     <div className="w-full h-full p-8">
                         <div className="bg-white bg-opacity-80 w-full px-16 pt-8 pb-8">
                             <div className="text-sm">
@@ -62,7 +63,7 @@ function Main() {
                 </div>
 
                 <div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-300"
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-center bg-blue-300"
                     style={{
                         backgroundImage: `url(${appenzellmobilebg1})`,
                         backgroundSize: '100%',
@@ -70,7 +71,7 @@ function Main() {
                     }}
                 ></div>
                 <a href="http://appenzellconstruction.com"><div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-300"
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-center bg-blue-300"
                     style={{
                         backgroundImage: `url(${appenzell})`,
                         backgroundSize: '80%',
@@ -78,7 +79,7 @@ function Main() {
                     }}
                 ></div></a>
                 <div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-400"
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-center bg-blue-400"
                     style={{
                         backgroundImage: `url(${parallelmobilebg1})`,
                         backgroundSize: '100%',
@@ -86,7 +87,7 @@ function Main() {
                     }}
                 ></div>
                 <a href="http://parallelvisioncontracting.com"><div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-400"
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-center bg-blue-400"
                     style={{
                         backgroundImage: `url(${parallelvision})`,
                         backgroundSize: '100%',
@@ -94,7 +95,7 @@ function Main() {
                     }}
                 ></div></a>
                 <div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-500"
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-center bg-blue-500"
                     style={{
                         backgroundImage: `url(${mackenziedynamicbg1})`,
                         backgroundSize: '100%',
@@ -102,7 +103,7 @@ function Main() {
                     }}
                 ></div>
                 <a href="http://mackenziedynamic.com"><div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-500"
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-center bg-blue-500"
                     style={{
                         backgroundImage: `url(${mackenziedynamic})`,
                         backgroundSize: '100%',
@@ -110,7 +111,7 @@ function Main() {
                     }}
                 ></div></a>
                 <div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-400"
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-center bg-blue-400"
                     style={{
                         backgroundImage: `url(${ravenmobilebg1})`,
                         backgroundSize: '100%',
@@ -118,7 +119,7 @@ function Main() {
                     }}
                 ></div>
                 <a href="raven"><div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-400"
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-center bg-blue-400"
                     style={{
                         backgroundImage: `url(${raven})`,
                         backgroundSize: '80%',
@@ -126,7 +127,7 @@ function Main() {
                     }}
                 ></div></a>
                 <div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-300"
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-center bg-blue-300"
                     style={{
                         backgroundImage: `url(${baemobilebg1})`,
                         backgroundSize: '100%',
@@ -134,7 +135,7 @@ function Main() {
                     }}
                 ></div>
                 <a href="mailto:bluearrowelectric@gmail.com"><div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-300"
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-center bg-blue-300"
                     style={{
                         backgroundImage: `url(${bae})`,
                         backgroundSize: '80%',
