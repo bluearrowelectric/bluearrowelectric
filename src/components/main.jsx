@@ -1,33 +1,35 @@
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import bg1 from '../assets/images/BAE_BG/1.jpg';
-import bg2 from '../assets/images/BAE_BG/2.jpg';
-import bg3 from '../assets/images/BAE_BG/19.jpg';
-import bg4 from '../assets/images/BAE_BG/4.jpg';
-import bg5 from '../assets/images/BAE_BG/5.jpg';
-import bg6 from '../assets/images/BAE_BG/21.jpg';
-import bg7 from '../assets/images/BAE_BG/20.jpg'
-import bg8 from '../assets/images/BAE_BG/22.jpg';
-import bg9 from '../assets/images/BAE_BG/13.jpg';
-import bg10 from '../assets/images/BAE_BG/10.jpg';
-import bg11 from '../assets/images/BAE_BG/3.jpg';
-import bg12 from '../assets/images/BAE_BG/14.jpg';
+import bluearrowbg1 from '../assets/images/BAE_BG/2.jpg';
+import bluearrowbg2 from '../assets/images/BAE_BG/3.jpg';
+import bluearrowbg3 from '../assets/images/BAE_BG/14.jpg';
+import bluearrowbg4 from '../assets/images/BAE_BG/15.jpg';
+import bluearrowbg5 from '../assets/images/BAE_BG/22.jpg';
+import appenzellbg1 from '../assets/images/BAE_BG/17.jpg';
+import appenzellbg2 from '../assets/images/BAE_BG/20.jpg';
+import appenzellbg3 from '../assets/images/BAE_BG/11.jpg';
+import parallelvisionbg1 from '../assets/images/BAE_BG/25.png';
+import parallelvisionbg2 from '../assets/images/BAE_BG/24.jpg'
+import mackenziedynamicbg1 from '../assets/images/BAE_BG/22.jpg';
+import mackenziedynamicbg2 from '../assets/images/BAE_BG/13.jpg';
+import ravenbg1 from '../assets/images/BAE_BG/26.jpg';
 
-import logo1 from '../assets/images/logo.png';
-import logo3 from '../assets/images/ParallelVision.png';
-import logo4 from '../assets/images/Mackenzie.png';
-import logo5 from '../assets/images/Appenzell.png';
-import logo2 from '../assets/images/RavenLong.png';
+
+import bae from '../assets/images/logo.png';
+import parallelvision from '../assets/images/ParallelVision.png';
+import mackenziedynamic from '../assets/images/Mackenzie.png';
+import appenzell from '../assets/images/Appenzell.png';
+import raven from '../assets/images/Raven2.png';
 
 function Main() {
     return (
-
+        //Mobile first 
         <div>
             <div className='block md:hidden'>
                 <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-200"
                     style={{
-                        backgroundImage: `url(${logo1})`,
+                        backgroundImage: `url(${bae})`,
                         backgroundSize: '80%',
                         backgroundPosition: '',
                     }}
@@ -52,7 +54,7 @@ function Main() {
                 <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-300"
                     style={{
-                        backgroundImage: `url(${bg5})`,
+                        backgroundImage: `url(${appenzellbg3})`,
                         backgroundSize: '100%',
                         backgroundPosition: '',
                     }}
@@ -60,7 +62,7 @@ function Main() {
                 <a href="http://appenzellconstruction.com"><div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-300"
                     style={{
-                        backgroundImage: `url(${logo5})`,
+                        backgroundImage: `url(${appenzell})`,
                         backgroundSize: '80%',
                         backgroundPosition: '',
                     }}
@@ -68,7 +70,7 @@ function Main() {
                 <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-400"
                     style={{
-                        backgroundImage: `url(${bg3})`,
+                        backgroundImage: `url(${parallelvisionbg1})`,
                         backgroundSize: '100%',
                         backgroundPosition: '',
                     }}
@@ -76,7 +78,7 @@ function Main() {
                 <a href="http://parallelvisioncontracting.com"><div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-400"
                     style={{
-                        backgroundImage: `url(${logo3})`,
+                        backgroundImage: `url(${parallelvision})`,
                         backgroundSize: '100%',
                         backgroundPosition: '',
                     }}
@@ -84,7 +86,7 @@ function Main() {
                 <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-500"
                     style={{
-                        backgroundImage: `url(${bg5})`,
+                        backgroundImage: `url(${mackenziedynamicbg1})`,
                         backgroundSize: '100%',
                         backgroundPosition: '',
                     }}
@@ -92,7 +94,7 @@ function Main() {
                 <a href="http://mackenziedynamic.com"><div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-500"
                     style={{
-                        backgroundImage: `url(${logo4})`,
+                        backgroundImage: `url(${mackenziedynamic})`,
                         backgroundSize: '100%',
                         backgroundPosition: '',
                     }}
@@ -100,7 +102,7 @@ function Main() {
                 <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-400"
                     style={{
-                        backgroundImage: `url(${bg1})`,
+                        backgroundImage: `url(${ravenbg1})`,
                         backgroundSize: '100%',
                         backgroundPosition: '',
                     }}
@@ -108,7 +110,7 @@ function Main() {
                 <a href="raven"><div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-400"
                     style={{
-                        backgroundImage: `url(${logo2})`,
+                        backgroundImage: `url(${raven})`,
                         backgroundSize: '80%',
                         backgroundPosition: '',
                     }}
@@ -116,7 +118,7 @@ function Main() {
                 <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-300"
                     style={{
-                        backgroundImage: `url(${bg5})`,
+                        backgroundImage: `url(${bluearrowbg5})`,
                         backgroundSize: '100%',
                         backgroundPosition: '',
                     }}
@@ -124,7 +126,7 @@ function Main() {
                 <a href="mailto:bluearrowelectric@gmail.com"><div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-300"
                     style={{
-                        backgroundImage: `url(${logo1})`,
+                        backgroundImage: `url(${bae})`,
                         backgroundSize: '80%',
                         backgroundPosition: '',
                     }}
@@ -137,19 +139,19 @@ function Main() {
                 <div
                     className="min-h-screen flex flex-col justify-center items-center bg-no-repeat bg-fixed snap-center bg-cover"
                     style={{
-                        backgroundImage: `url(${bg2})`,
+                        backgroundImage: `url(${bluearrowbg1})`,
                         backgroundPosition: 'center',
                     }}
                 ><div className="justify-center items-center mt-auto"></div>
-                    <div className='bg-white bg-opacity-60 h-full py-8 w-full md:px-24'><img className='mx-auto px-24' src={logo1} alt="Logo 1" /></div>
+                    <div className='bg-white bg-opacity-60 h-full py-8 w-full md:px-24'><img className='mx-auto px-24' src={bae} alt="Blue Arrow Logo" /></div>
                     <div className="justify-center items-center mt-auto">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill="none"
                             viewBox="0 0 24 24"
-                            strokeWidth="1.5" // Corrected
+                            strokeWidth="1.5"
                             stroke="currentColor"
-                            className="w-40 h-40 text-blue-700 opacity-60" // You can adjust the size and color using Tailwind CSS classes
+                            className="w-40 h-40 text-blue-700 opacity-60"
                         >
                             <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
                         </svg>
@@ -160,7 +162,7 @@ function Main() {
                 <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
                     style={{
-                        backgroundImage: `url(${bg8})`,
+                        backgroundImage: `url(${bluearrowbg5})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                     }}
@@ -170,7 +172,7 @@ function Main() {
                 <div
                     className="min-h-screen flex justify-center items-start bg-blue bg-no-repeat bg-fixed snap-start"
                     style={{
-                        backgroundImage: `url(${bg1})`,
+                        backgroundImage: `url(${appenzellbg3})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                     }}
@@ -197,7 +199,7 @@ function Main() {
                 <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
                     style={{
-                        backgroundImage: `url(${bg9})`,
+                        backgroundImage: `url(${appenzellbg1})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                     }}
@@ -208,37 +210,17 @@ function Main() {
                 <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
                     style={{
-                        backgroundImage: `url(${bg7})`,
+                        backgroundImage: `url(${appenzellbg2})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                     }}
                 >
-                    <a href="http://appenzellconstruction.com"><img className='w-2/3 mx-auto' src={logo5} alt="Appenzell" /></a>
+                    <a href="http://appenzellconstruction.com"><img className='w-2/3 mx-auto' src={appenzell} alt="Appenzell" /></a>
                 </div>
                 <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
                     style={{
-                        backgroundImage: `url(${bg6})`,
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center',
-                    }}
-                >
-
-                </div>
-                <div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
-                    style={{
-                        backgroundImage: `url(${bg4})`,
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center',
-                    }}
-                >
-                    <a href="http://parallelvisioncontracting.com"><img src={logo3} alt="Parallel Vision" /></a>
-                </div>
-                <div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
-                    style={{
-                        backgroundImage: `url(${bg5})`,
+                        backgroundImage: `url(${parallelvisionbg1})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                     }}
@@ -248,17 +230,37 @@ function Main() {
                 <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
                     style={{
-                        backgroundImage: `url(${bg3})`,
+                        backgroundImage: `url(${parallelvisionbg2})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                     }}
                 >
-                    <a href="http://mackenziedynamic.com"><img className='lg:w-2/3 md:w-2/3 mx-auto' src={logo4} alt="MacKenzie Dynamic" /></a>
+                    <a href="http://parallelvisioncontracting.com"><img src={parallelvision} alt="Parallel Vision" /></a>
                 </div>
                 <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
                     style={{
-                        backgroundImage: `url(${bg12})`,
+                        backgroundImage: `url(${mackenziedynamicbg1})`,
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                    }}
+                >
+
+                </div>
+                <div
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
+                    style={{
+                        backgroundImage: `url(${mackenziedynamicbg2})`,
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                    }}
+                >
+                    <a href="http://mackenziedynamic.com"><img className='lg:w-1/2 md:w-2/3 mx-auto' src={mackenziedynamic} alt="MacKenzie Dynamic" /></a>
+                </div>
+                <div
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
+                    style={{
+                        backgroundImage: `url(${bluearrowbg3})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                     }}
@@ -268,16 +270,16 @@ function Main() {
                 <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center px-40"
                     style={{
-                        backgroundImage: `url(${bg10})`,
+                        backgroundImage: `url(${ravenbg1})`,
                         backgroundSize: 'cover',
                     }}
                 >
-                    <a href="https://www.facebook.com/ravencontractingrevelstoke/"><img src={logo2} alt="Raven" /></a>
+                    <a href="https://www.facebook.com/ravencontractingrevelstoke/"><img src={raven} alt="Raven" /></a>
                 </div>
                 <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
                     style={{
-                        backgroundImage: `url(${bg11})`,
+                        backgroundImage: `url(${bluearrowbg2})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                     }}
@@ -287,12 +289,12 @@ function Main() {
                 <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
                     style={{
-                        backgroundImage: `url(${bg7})`,
+                        backgroundImage: `url(${bluearrowbg4})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                     }}
                 >
-                    <div className='bg-white bg-opacity-60 w-full py-8'><a href='mailto:bluearrowelectric@gmail.com'><img className='mx-auto px-12' src={logo1} alt="Logo 1" /></a></div>
+                    <div className='bg-white bg-opacity-60 w-full py-8'><a href='mailto:bluearrowelectric@gmail.com'><img className='mx-auto px-12' src={bae} alt="Logo 1" /></a></div>
                 </div>
 
             </div></div>
