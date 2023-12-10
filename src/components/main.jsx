@@ -28,7 +28,7 @@ function Main() {
     return (
         //Mobile first 
         <div>
-            <div className='block md:hidden'>
+            <div className='block md:hidden scroll-smooth'>
                 <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-center bg-blue-300"
                     style={{
