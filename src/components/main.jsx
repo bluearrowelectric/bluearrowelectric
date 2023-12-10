@@ -13,7 +13,10 @@ import parallelvisionbg2 from '../assets/images/BAE_BG/24.jpg'
 import mackenziedynamicbg1 from '../assets/images/BAE_BG/5.jpg';
 import mackenziedynamicbg2 from '../assets/images/BAE_BG/13.jpg';
 import ravenbg1 from '../assets/images/BAE_BG/26.jpg';
-
+import appenzellmobilebg1 from '../assets/images/BAE_BG/28.jpg';
+import parallelmobilebg1 from '../assets/images/BAE_BG/23.png';
+import ravenmobilebg1 from '../assets/images/BAE_BG/29.jpg';
+import baemobilebg1 from '../assets/images/BAE_BG/30.jpg';
 
 import bae from '../assets/images/logo.png';
 import parallelvision from '../assets/images/ParallelVision.png';
@@ -33,18 +36,25 @@ function Main() {
                         backgroundSize: '80%',
                         backgroundPosition: '',
                     }}
-                ></div>
-                <div className="min-h-screen flex items-start pt-96 bg-blue bg-no-repeat snap-start bg-blue-200">
-                    <div className="xl:w-1/2 lg:w-2/3 md:w-4/5 sm:w-full p-8">
-                        <div className="bg-white bg-opacity-80 w-full px-16 pt-16 pb-60">
-                            <div className="text-2xl">
+                > <div className="justify-center items-center mt-auto">
+
+
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-24 h-24 text-blue-700 opacity-60">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+                        </svg>
+                    </div></div>
+                <div className="min-h-screen max-h-screen flex items-start pt- bg-blue bg-no-repeat snap-start bg-blue-200">
+                    <div className="w-full h-full p-8">
+                        <div className="bg-white bg-opacity-80 w-full px-16 pt-8 pb-8">
+                            <div className="text-sm">
                                 Blue Arrow Electric Ltd has proudly served the Revelstoke, BC community for over 5 years, establishing enduring partnerships with local general contractors. As trusted subcontractors, we seamlessly integrate into the operations of various general contractors, becoming integral members of their project teams.
                             </div>
-                            <div className="text-2xl mt-8">
+                            <div className="text-sm mt-8">
                                 Our commitment to excellence is reflected in the longstanding relationships we've cultivated, grounded in shared values with our general contractor partners. At Blue Arrow Electric Ltd, we align ourselves with our contractors' core principles, emphasizing Quality, Scheduling, and Budget in every project we undertake.
                             </div>
-                            <div className="text-2xl mt-8">
-                                We invite you to connect with one of our esteemed contracting partners today. Let's embark on the journey of planning and executing your next project together, ensuring its success through collaborative efforts and unwavering dedication.
+                            <div className="text-sm mt-8">
+                                We invite you to connect with one of our esteemed contracting partners today by clicking their link below. Let's embark on the journey of planning and executing your next project together, ensuring its success through collaborative efforts and unwavering dedication.
                             </div>
                         </div>
 
@@ -54,7 +64,7 @@ function Main() {
                 <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-300"
                     style={{
-                        backgroundImage: `url(${appenzellbg3})`,
+                        backgroundImage: `url(${appenzellmobilebg1})`,
                         backgroundSize: '100%',
                         backgroundPosition: '',
                     }}
@@ -70,7 +80,7 @@ function Main() {
                 <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-400"
                     style={{
-                        backgroundImage: `url(${parallelvisionbg1})`,
+                        backgroundImage: `url(${parallelmobilebg1})`,
                         backgroundSize: '100%',
                         backgroundPosition: '',
                     }}
@@ -102,7 +112,7 @@ function Main() {
                 <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-400"
                     style={{
-                        backgroundImage: `url(${ravenbg1})`,
+                        backgroundImage: `url(${ravenmobilebg1})`,
                         backgroundSize: '100%',
                         backgroundPosition: '',
                     }}
@@ -118,7 +128,7 @@ function Main() {
                 <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat snap-center bg-center bg-blue-300"
                     style={{
-                        backgroundImage: `url(${bluearrowbg5})`,
+                        backgroundImage: `url(${baemobilebg1})`,
                         backgroundSize: '100%',
                         backgroundPosition: '',
                     }}
@@ -146,14 +156,8 @@ function Main() {
                     <div className='bg-white bg-opacity-60 h-full py-8 w-full md:px-24'><img className='mx-auto px-24' src={bae} alt="Blue Arrow Logo" /></div>
                     <div className="justify-center items-center mt-auto">
                         <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            strokeWidth="1.5"
-                            stroke="currentColor"
-                            className="w-40 h-40 text-blue-700 opacity-60"
-                        >
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-24 h-24 text-blue-700 opacity-60">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
                         </svg>
                     </div>
                 </div>
@@ -177,17 +181,17 @@ function Main() {
                         backgroundPosition: 'center',
                     }}
                 >
-                    <div className="min-h-screen flex items-start pt-96 bg-blue bg-no-repeat bg-fixed snap-start">
-                        <div className="xl:w-1/2 lg:w-2/3 md:w-4/5 sm:w-full p-8">
-                            <div className="bg-white bg-opacity-80 w-full px-16 pt-16 pb-60">
-                                <div className="text-2xl">
+                    <div className="min-h-screen flex items-end bg-blue bg-no-repeat bg-fixed snap-start">
+                        <div className="xl:w-full lg:w-full md:w-full sm:w-full p-8">
+                            <div className="bg-white bg-opacity-80 w-full px-16 pt-16 pb-24">
+                                <div className="text-xl">
                                     Blue Arrow Electric Ltd has proudly served the Revelstoke, BC community for over 5 years, establishing enduring partnerships with local general contractors. As trusted subcontractors, we seamlessly integrate into the operations of various general contractors, becoming integral members of their project teams.
                                 </div>
-                                <div className="text-2xl mt-8">
+                                <div className="text-xl mt-8">
                                     Our commitment to excellence is reflected in the longstanding relationships we've cultivated, grounded in shared values with our general contractor partners. At Blue Arrow Electric Ltd, we align ourselves with our contractors' core principles, emphasizing Quality, Scheduling, and Budget in every project we undertake.
                                 </div>
-                                <div className="text-2xl mt-8">
-                                    We invite you to connect with one of our esteemed contracting partners today. Let's embark on the journey of planning and executing your next project together, ensuring its success through collaborative efforts and unwavering dedication.
+                                <div className="text-xl mt-8">
+                                    We invite you to connect with one of our esteemed contracting partners today by clicking their link below. Let's embark on the journey of planning and executing your next project together, ensuring its success through collaborative efforts and unwavering dedication.
                                 </div>
                             </div>
 
