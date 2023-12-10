@@ -3,14 +3,14 @@ import { useLocation } from 'react-router-dom';
 import bluearrowbg1 from '../assets/images/BAE_BG/2.jpg';
 import bluearrowbg2 from '../assets/images/BAE_BG/3.jpg';
 import bluearrowbg3 from '../assets/images/BAE_BG/14.jpg';
-import bluearrowbg4 from '../assets/images/BAE_BG/15.jpg';
+import bluearrowbg4 from '../assets/images/BAE_BG/27.jpg';
 import bluearrowbg5 from '../assets/images/BAE_BG/22.jpg';
 import appenzellbg1 from '../assets/images/BAE_BG/17.jpg';
 import appenzellbg2 from '../assets/images/BAE_BG/20.jpg';
 import appenzellbg3 from '../assets/images/BAE_BG/11.jpg';
 import parallelvisionbg1 from '../assets/images/BAE_BG/25.png';
 import parallelvisionbg2 from '../assets/images/BAE_BG/24.jpg'
-import mackenziedynamicbg1 from '../assets/images/BAE_BG/22.jpg';
+import mackenziedynamicbg1 from '../assets/images/BAE_BG/5.jpg';
 import mackenziedynamicbg2 from '../assets/images/BAE_BG/13.jpg';
 import ravenbg1 from '../assets/images/BAE_BG/26.jpg';
 
