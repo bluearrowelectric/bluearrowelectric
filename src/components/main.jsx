@@ -8,13 +8,13 @@ import bluearrowbg5 from '../assets/images/BAE_BG/22.jpg';
 import appenzellbg1 from '../assets/images/BAE_BG/17.jpg';
 import appenzellbg2 from '../assets/images/BAE_BG/20.jpg';
 import appenzellbg3 from '../assets/images/BAE_BG/11.jpg';
-import parallelvisionbg1 from '../assets/images/BAE_BG/25.png';
-import parallelvisionbg2 from '../assets/images/BAE_BG/24.jpg'
+import parallelvisionbg1 from '../assets/images/BAE_BG/31.jpg';
+import parallelvisionbg2 from '../assets/images/BAE_BG/35.jpg'
 import mackenziedynamicbg1 from '../assets/images/BAE_BG/5.jpg';
 import mackenziedynamicbg2 from '../assets/images/BAE_BG/13.jpg';
 import ravenbg1 from '../assets/images/BAE_BG/26.jpg';
 import appenzellmobilebg1 from '../assets/images/BAE_BG/28.jpg';
-import parallelmobilebg1 from '../assets/images/BAE_BG/23.png';
+import parallelmobilebg1 from '../assets/images/BAE_BG/32.jpg';
 import ravenmobilebg1 from '../assets/images/BAE_BG/29.jpg';
 import baemobilebg1 from '../assets/images/BAE_BG/30.jpg';
 
@@ -52,7 +52,7 @@ function Main() {
                                 Blue Arrow Electric Ltd has proudly served the Revelstoke, BC community for over 5 years, establishing enduring partnerships with local general contractors. As trusted subcontractors, we seamlessly integrate into the operations of various general contractors, becoming integral members of their project teams.
                             </div>
                             <div className="text-sm mt-8">
-                                Our commitment to excellence is reflected in the longstanding relationships we've cultivated, grounded in shared values with our general contractor partners. At Blue Arrow Electric Ltd, we align ourselves with our contractors' core principles, emphasizing Quality, Scheduling, and Budget in every project we undertake.
+                                Our commitment to excellence is reflected in the longstanding relationships we've cultivated, grounded in shared values with our general contractor partners. At Blue Arrow Electric Ltd, we align ourselves with our contractors' core principles, emphasizing quality, scheduling, and budget in every project we undertake.
                             </div>
                             <div className="text-sm mt-8">
                                 We invite you to connect with one of our esteemed contracting partners today by clicking their link below. Let's embark on the journey of planning and executing your next project together, ensuring its success through collaborative efforts and unwavering dedication.
@@ -94,7 +94,7 @@ function Main() {
                         backgroundPosition: '',
                     }}
                 ></div></a>
-                <div
+                {/*<div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-center bg-blue-500"
                     style={{
                         backgroundImage: `url(${mackenziedynamicbg1})`,
@@ -109,7 +109,7 @@ function Main() {
                         backgroundSize: '100%',
                         backgroundPosition: '',
                     }}
-                ></div></a>
+                ></div></a>*/}
                 <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-center bg-blue-400"
                     style={{
@@ -146,9 +146,9 @@ function Main() {
             </div>
 
 
-            <div className="snap-y-manditory snap-proximity hidden md:block">
+            <div className="snap-y-manditory snap-proximity snap-container hidden md:block">
                 <div
-                    className="min-h-screen flex flex-col justify-center items-center bg-no-repeat bg-fixed snap-center bg-cover"
+                    className="min-h-screen flex flex-col justify-center items-center bg-no-repeat bg-fixed snap-start bg-cover"
                     style={{
                         backgroundImage: `url(${bluearrowbg1})`,
                         backgroundPosition: 'center',
@@ -165,7 +165,7 @@ function Main() {
 
 
                 <div
-                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
+                    className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-start bg-center"
                     style={{
                         backgroundImage: `url(${bluearrowbg5})`,
                         backgroundSize: 'cover',
@@ -242,7 +242,7 @@ function Main() {
                 >
                     <a href="http://parallelvisioncontracting.com"><img src={parallelvision} alt="Parallel Vision" /></a>
                 </div>
-                <div
+                {/* <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
                     style={{
                         backgroundImage: `url(${mackenziedynamicbg1})`,
@@ -261,7 +261,7 @@ function Main() {
                     }}
                 >
                     <a href="http://mackenziedynamic.com"><img className='lg:w-1/2 md:w-2/3 mx-auto' src={mackenziedynamic} alt="MacKenzie Dynamic" /></a>
-                </div>
+                </div>*/}
                 <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
                     style={{
