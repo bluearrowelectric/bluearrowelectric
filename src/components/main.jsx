@@ -141,7 +141,7 @@ function Main() {
                         backgroundSize: '80%',
                         backgroundPosition: '',
                     }}
-                ></div></a>
+                ><div className='pt-60 text-lg font-bold'>Contact Us</div></div></a>
 
             </div>
 
@@ -299,7 +299,7 @@ function Main() {
                         backgroundPosition: 'center',
                     }}
                 >
-                    <div className='bg-white bg-opacity-60 w-full py-8'><a href='mailto:bluearrowelectric@gmail.com'><img className='mx-auto px-12' src={bae} alt="Logo 1" /></a></div>
+                    <div className='bg-white bg-opacity-60 w-full py-8'><a href='mailto:bluearrowelectric@gmail.com'><img className='mx-auto px-12' src={bae} alt="Logo 1" /><div className='text-center mx-auto text-4xl pt-8 font-bold'>Contact Us</div></a></div>
                 </div>
 
             </div></div>
