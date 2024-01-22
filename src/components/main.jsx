@@ -118,7 +118,7 @@ function Main() {
                         backgroundPosition: '',
                     }}
                 ></div>
-                <a href="raven"><div
+                <a href="https://www.ravencontracting.ca/"><div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-center bg-blue-400"
                     style={{
                         backgroundImage: `url(${raven})`,
@@ -279,7 +279,7 @@ function Main() {
                         backgroundSize: 'cover',
                     }}
                 >
-                    <a href="https://www.facebook.com/ravencontractingrevelstoke/"><img src={raven} alt="Raven" /></a>
+                    <a href="https://www.ravencontracting.ca/"><img src={raven} alt="Raven" /></a>
                 </div>
                 <div
                     className="min-h-screen flex justify-center items-center bg-blue bg-no-repeat bg-fixed snap-center bg-center"
